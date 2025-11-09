@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes neonGlow {
+    0% {
+      text-shadow:
+        0 0 4px rgba(228, 228, 242, 0.2),
+        0 0 8px rgba(228, 228, 242, 0.3),
+        0 0 12px rgba(191, 176, 163, 0.2);
+    }
+    50% {
+      text-shadow:
+        0 0 6px rgba(228, 228, 242, 0.4),
+        0 0 12px rgba(191, 176, 163, 0.5),
+        0 0 20px rgba(115, 62, 32, 0.3);
+    }
+    100% {
+      text-shadow:
+        0 0 4px rgba(228, 228, 242, 0.2),
+        0 0 8px rgba(228, 228, 242, 0.3),
+        0 0 12px rgba(191, 176, 163, 0.2);
+    }
+  }
+  
+  .neon-text {
+    animation: neonGlow 3s ease-in-out infinite;
+  }
+ 
+  @keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      opacity: 1;
+    }
+    20%, 24%, 55% {
+      opacity: 0.4;
+    }
+  }
+  
+  .flicker {
+    animation: flicker 4s linear 1;
+  }
+  
