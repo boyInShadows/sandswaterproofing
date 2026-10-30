@@ -9,8 +9,9 @@ React, Tailwind CSS and Framer Motion.
 photographic hero, a brand section with animated geometry and an unfinished
 creation section. The header's Gallery/Contact labels have no destinations,
 and search has no results handler. There is no contact service or customer
-database in this checkout. Client engagement, individual contribution and the
-relationships implied by displayed company logos have not been confirmed.
+database in this checkout. Ramtin Farzane developed the entire website
+implementation; the project remains unfinished. Relationships implied by
+displayed company logos have not been verified.
 
 ## Run locally
 
